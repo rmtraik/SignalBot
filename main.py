@@ -1,6 +1,7 @@
 # main_bot.py (مع تعديلات ليصبح بوت تيليجرام تفاعلي)
 
 # ... (جميع الاستيرادات والإعدادات كما في الرد السابق) ...
+from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 import asyncio # للتشغيل غير المتزامن
 
